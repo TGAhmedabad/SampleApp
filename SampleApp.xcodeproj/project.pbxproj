@@ -21,6 +21,7 @@
 		84E0E4DF187BCAB500E485E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0E4C1187BCAB500E485E5 /* UIKit.framework */; };
 		84E0E4E7187BCAB500E485E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E4E5187BCAB500E485E5 /* InfoPlist.strings */; };
 		84E0E4E9187BCAB500E485E5 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0E4E8187BCAB500E485E5 /* SampleAppTests.m */; };
+		84E0E4F5187BDE2100E485E5 /* logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E4F4187BDE2100E485E5 /* logout@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		84E0E4E4187BCAB500E485E5 /* SampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAppTests-Info.plist"; sourceTree = "<group>"; };
 		84E0E4E6187BCAB500E485E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84E0E4E8187BCAB500E485E5 /* SampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppTests.m; sourceTree = "<group>"; };
+		84E0E4F4187BDE2100E485E5 /* logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		84E0E4C3187BCAB500E485E5 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				84E0E4F3187BDE2100E485E5 /* Images */,
 				84E0E4CC187BCAB500E485E5 /* AppDelegate.h */,
 				84E0E4CD187BCAB500E485E5 /* AppDelegate.m */,
 				84E0E4CF187BCAB500E485E5 /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				84E0E4E5187BCAB500E485E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E0E4F3187BDE2100E485E5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84E0E4F4187BDE2100E485E5 /* logout@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0E4F5187BDE2100E485E5 /* logout@2x.png in Resources */,
 				84E0E4D6187BCAB500E485E5 /* Images.xcassets in Resources */,
 				84E0E4C8187BCAB500E485E5 /* InfoPlist.strings in Resources */,
 				84E0E4D1187BCAB500E485E5 /* Main.storyboard in Resources */,
@@ -460,6 +472,7 @@
 				84E0E4EE187BCAB500E485E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E0E4EF187BCAB500E485E5 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				84E0E4F1187BCAB500E485E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
